@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img src="~/img/Pontuslogo.png" />
+        <ol>
+            <li>@Html.ActionLink("Contact me", "Contact");</li>
+            <li>@Html.ActionLink("About", "About");</li>
+            <li>@Html.ActionLink("Projects", "Projects");</li>
+        </ol>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer><h3> &copy; Pontus Date : @DateTime.Now</h3></footer>
+</body>
+</html>
