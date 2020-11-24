@@ -10,9 +10,12 @@
     <header>
         <img src="~/img/Pontuslogo.png" />
         <ol>
-            <li>@Html.ActionLink("Contact me", "Contact");</li>
-            <li>@Html.ActionLink("About", "About");</li>
-            <li>@Html.ActionLink("Projects", "Projects");</li>
+            <li>@Html.ActionLink("Contact me", "Contact", "Home");</li>
+            <li>@Html.ActionLink("About", "About", "Home");</li>
+            <li>@Html.ActionLink("Projects", "Projects","Home");</li>
+            <li>
+                <a asp-action="Fever" asp-controller="Fever">Fever check</a>
+            </li>
         </ol>
     </header>
 

@@ -1,0 +1,15 @@
+﻿@model Fever
+
+@{
+        ViewBag.Title = "Create Fever";
+}
+
+<form asp-action="Create" method="post">
+    <label asp-for="Temp"></label>
+    <input asp-for="Temp"/>
+ 
+
+   
+
+    <input type="submit" value="Create" />
+</form>

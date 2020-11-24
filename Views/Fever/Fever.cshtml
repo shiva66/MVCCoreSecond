@@ -1,0 +1,24 @@
+﻿@*@model List<Fever>*@
+@{
+    ViewBag.Title = "Fever Check!";
+}
+
+<a asp-action="Create" >Create a Fever</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Temp</th>
+
+        </tr>
+    </thead>
+    <tbody>
+         @foreach (Fever item in Model)
+         {
+            <tr>
+                <td>@item.Temp</td>
+             </tr>
+          }
+    </tbody>
+
+</table>

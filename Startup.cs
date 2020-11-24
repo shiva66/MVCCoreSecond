@@ -17,7 +17,7 @@ namespace MVCAssinment2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddControllersWithViews();
+            //services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,9 +35,13 @@ namespace MVCAssinment2
 
             app.UseEndpoints(endpoints =>
             {
-             
-                    //endpoints.MapDefaultControllerRoute();
-                    endpoints.MapControllerRoute(
+
+                //endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapControllerRoute(
+                    name: "fever",
+                    pattern: "Fever/Fever/{id?}");
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Contact}/{id?}");
             });

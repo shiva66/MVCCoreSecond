@@ -107,3 +107,7 @@ C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\MVCAssinment2.
 C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\MVCAssinment2.dll
 C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\MVCAssinment2.pdb
 C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\MVCAssinment2.genruntimeconfig.cache
+C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\MVCAssinment2.csprojAssemblyReference.cache
+C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\Razor\Views\Fever\Fever.cshtml.g.cs
+C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\Razor\Views\Fever\FeverCheck.cshtml.g.cs
+C:\Users\phhak\source\repos\MVCAssinment2\obj\Debug\netcoreapp3.1\Razor\Views\Fever\Create.cshtml.g.cs
